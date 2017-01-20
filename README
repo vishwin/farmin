@@ -1,0 +1,25 @@
+FARMIN
+======
+
+This is a crude telemetry display for indoor cycling, specifically on a
+trainer or rollers. There are two components: a Python desktop software
+component using ncurses and pyserial to parse and display, and an Arduino
+sketch for providing numbers of pings every two seconds.
+
+This code was developed on a whim and as a result is usable but
+buggy. There could be some code refactoring to become a package or
+something but that's for a later time. As-is, you use this at your
+own risk.
+
+Installation and configuration
+------------------------------
+There is no configuration besides assembling the hardware (Arduino)
+portion with a hall effect sensor.
+
+Developed and tested with Python 3.6 and the PySerial library at the
+time of Python 3.6's release.
+
+Copyright and licence
+---------------------
+This project is copyright 2017 Charlie Li and released under the
+three-clause BSD licence.
